@@ -50,7 +50,8 @@ function post(parent, args, context, info) {
   const { prisma } = context;
 
   const { url, description = "" } = args;
-  const userId = getUserId(context);
+  // const userId = getUserId(context);
+  const userId = "ck95p2j4x5uwx0923gop6ifuf";
 
   return prisma.createLink({
     url,
